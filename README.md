@@ -16,3 +16,6 @@ Learn the pattern on the Input variables to output trading signals
 # customisable parameters
     1. Invest horizon (period for optimise return) - show the expected return for each horizon
     2. market sentiment - how to guard quality?
+
+# Data Inspection
+    1. whether model failed to predict under certain period?
