@@ -1,6 +1,6 @@
 # Pre-market Singaling Model - Deep Learning
 
-# Assumnption
+# Assumption
 H1: Assumption on pre-market performance correlated to open market 30-minute volatility AND open market 30-minute performance show patterns
 
 # Modeling
@@ -13,7 +13,7 @@ Learn the pattern on the Input variables to output trading signals
     4. assume close all positions everyday
     5. optimise the return over [period]
 
-# customisable parameters (giving different results depends on choices)
+# Customisable parameters (giving different results depends on choices)
     1. Invest horizon (period for optimise return) - show the expected return for each horizon
     2. market sentiment
 
