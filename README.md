@@ -1,4 +1,4 @@
-# Pre-market Singaling Model - Deep Learning
+# Market Open 30mins Algo - Deep Learning
 
 # Assumption
 H1: Assumption on pre-market performance correlated to open market 30-minute volatility AND open market 30-minute performance show patterns
