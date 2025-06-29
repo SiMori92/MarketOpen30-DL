@@ -1,22 +1,24 @@
 # Market Open 30mins Algo - Deep Learning
 
 # Assumption
-H1: Assumption on pre-market performance correlated to open market 30-minute volatility AND open market 30-minute performance show patterns
-
-# Modeling
-Learn the pattern on the Input variables to output trading signals
+1. H1: probabilities of either (1) 30-minutes return is positive or (2) high - open price > [1.5] %  > 60%
+2. H1: Assumption on (1) T-1 return and volume and (2) pre-market performance correlated to assumption 1 probabilities 
 
 # Strategy rules
-    1. 7 signals generated per trading day - any legal risk? providing brokerage opinion ?
-    2. split your bets in 10 equal bets
-    3. assume execute all trade signals every day 
-    4. assume close all positions everyday
-    5. optimise the return over [period]
+1. assume each day start with 0 position
+2. assume close all positions every day at 10:00
+3. a must, net position cannot below 0
+4. Signal at market open: Buy or Not buy
+
+# Modeling
+optimisation
+    1. probabilities
+    2. return
 
 # Customisable parameters (giving different results depends on choices)
     1. Invest horizon (period for optimise return) - show the expected return for each horizon
     2. market sentiment
 
 # Back-test
-    1. Probability distribution for each optimisation period
-    2. whether model failed to predict under certain period?
+    1. Probability distribution of assumption 1
+    2. validation and testing on model trained based on assumtpion 2
