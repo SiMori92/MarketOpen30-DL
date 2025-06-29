@@ -22,3 +22,7 @@
 # Back-test
     1. Probability distribution of assumption 1
     2. validation and testing on model trained based on assumtpion 2
+
+# Documents
+    1. Data Scehema - https://docs.google.com/spreadsheets/d/1VVRJ0_q_iqt4BhN5bDrgCl6_kCcSziLifmmPGbSlApc/edit?gid=1828399017#gid=1828399017
+    2. 
